@@ -2,6 +2,63 @@
 <html>
 <head>
   <title>Math Calculator</title>
+  <style>
+    /* Mobile-friendly styles */
+    body {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  
+    form {
+      margin-bottom: 20px;
+    }
+  
+    input[type="number"] {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    button {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    h2 {
+      margin-top: 20px;
+    }
+  
+    p {
+      margin-bottom: 10px;
+    }
+  
+    /* Responsive styles for larger screens */
+    @media screen and (min-width: 600px) {
+      body {
+        max-width: 600px;
+      }
+  
+      form {
+        display: flex;
+        justify-content: space-between;
+      }
+  
+      input[type="number"] {
+        width: 45%;
+      }
+  
+      button {
+        width: 100px;
+        margin-top: 0;
+        align-self: flex-end;
+      }
+  
+      h2 {
+        margin-top: 30px;
+      }
+    }
+  </style>
 </head>
 <body>
   <h1>Math Calculator</h1>
