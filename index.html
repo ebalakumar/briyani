@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Math Calculator</title>
+</head>
+<body>
+  <h1>Math Calculator</h1>
+  
+  <form onsubmit="event.preventDefault(); calculate();">
+    <label for="number1">Number 1:</label>
+    <input type="number" id="number1" required>
+
+    <label for="number2">Number 2:</label>
+    <input type="number" id="number2" required>
+
+    <button type="submit">Calculate</button>
+  </form>
+
+  <h2>Results:</h2>
+  <p id="sum"></p>
+  <p id="difference"></p>
+  <p id="product"></p>
+  <p id="quotient"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
