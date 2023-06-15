@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Math Calculator</title>
+  <title>Food Dish Calculator</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -13,6 +13,9 @@
       max-width: 600px;
       margin: 0 auto;
       padding: 20px;
+      background-color: #f1f1f1;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
     .title {
@@ -59,21 +62,20 @@
 
     .result {
       margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1 class="title">Math Calculator</h1>
+    <h1 class="title">Food Dish Calculator</h1>
 
     <div class="form-group">
-      <label for="number1">Number 1:</label>
-      <input type="number" id="number1" required>
-    </div>
-
-    <div class="form-group">
-      <label for="number2">Number 2:</label>
-      <input type="number" id="number2" required>
+      <label for="meatWeight">Enter the weight of mutton (in kg):</label>
+      <input type="number" id="meatWeight" required>
     </div>
 
     <div class="button-container">
@@ -81,11 +83,9 @@
     </div>
 
     <div class="result-container">
-      <h2>Results:</h2>
-      <p class="result" id="sum"></p>
-      <p class="result" id="difference"></p>
-      <p class="result" id="product"></p>
-      <p class="result" id="quotient"></p>
+      <h2>Steps to Make the Food Dish:</h2>
+      <p class="result" id="riceStep"></p>
+      <p class="result" id="waterStep"></p>
     </div>
   </div>
 
